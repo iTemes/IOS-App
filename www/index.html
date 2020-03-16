@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src * data: blob: ws: wss: gap://ready file://*;
+            style-src * 'unsafe-inline';
+            script-src * 'unsafe-inline' 'unsafe-eval';
+            connect-src * ws: wss:;">
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/pappermint.css">
+        <title>Catalogues Centrsvet</title>
+    </head>
+    <body>
+        <main class="content">
+            <section class="home">
+                <div class="home-toggler-wrapper">
+                    <div class="toogler-box">
+                        <a class="toggler toggler-first active">Системы</a>
+                        <a class="toggler toggler-second">Продукты</a>
+                    </div>
+                </div>
+                <div class="home-doublescreen">
+                    <div class="top-slider">
+                        <h2 class="section-title section-title--trends">Системы</h2>
+                        <div class="loader loader--main">
+                            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        </div>
+                        <div class="error error--top close">
+                            <p class="error-text"></p>
+                            <a class="try"
+                                onclick="window.index.closeError()">
+                                Попробовать снова
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="top-menu">
+                        <h2 class="section-title section-title--trends">Светильники <span class="galery-link">Смотреть все</span></h2>
+                        <div class="top-menu__wrapper top-menu__wrapper--insper">
+                            <div class="loader loader--main ">
+                                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </section>
+    
+            <section class="catalogs">
+                <a class="back"><span class="arrow-back"></span>Назад</a>
+                <h2>Каталоги<br> PDF</h2>
+                <div class="catalogs-wrapper">
+
+                </div>
+                <div class="loader loader--catalog">
+                    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                </div>
+                <div class="error error--catalog close">
+                    <p class="error-text"></p>
+                    <a class="try"
+                       onclick="window.index.closeError()">
+                        Попробовать снова
+                    </a>
+                </div>
+            </section>
+
+            <section class="galery">
+                <h2 class="visually-hidden">Галерея</h2>
+                <a class="back"><span class="arrow-back"></span>Назад</a>
+                <div class="galery__wrapper">
+                    
+                </div>
+            </section>
+    
+            <section class="instructions">
+                <h2 class="visually-hidden">Инструкции</h2>
+                <div class="loader loader--instr">
+                    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                </div>
+                
+                
+                <div class="error error--instr close">
+                    <p class="error-text"></p>
+                    <a class="try"
+                        onclick="window.index.closeError()">
+                        Попробовать снова</a>
+                </div>
+            </section>
+            
+            <section class="contacts">
+                <a class="back"><span class="arrow-back"></span>Назад</a>
+                <div class="contacts__wrapper">
+                    <div class="contacts__text">
+                        <a href="http://maps.apple.com/?q=Centrsvet&sll=55.8049,37.3929&z=10&t=s">
+                            <h2 class="contacts__map">ГЛАВНЫЙ<br> ОФИС</h2>
+                            <p>
+                                Москва,Кулакова 20, стр 1А
+                            </p>
+                        </a>
+                    </div>
+                    <div class="contacts__text">
+                        <a href="tel:88007754161">
+                            <h2 class="contacts__phone">Звонки<br> по России</h2>
+                            <p>8 800 775-41-61 | <span>Бесплатно</span></p>
+                         </a>
+                    </div>
+                    <div class="contacts__text">
+                        <a href="tel:84957775151">
+                            <h2 class="contacts__phone">Звонки<br> из Москвы</h2>
+                            <p>8 495 777-51-51</p>
+                        </a>
+                    </div>
+                    <a class="write btn" href="mailto:b2b@centrsvet.ru">Напишите нам </a>
+                </div>
+            </section>
+
+            <section class="info">
+                <a class="back"><span class="arrow-back"></span>Назад</a>
+                <div class="faq">
+                        <div class="contacts__text">
+                                <a href="http://maps.apple.com/?q=Centrsvet&sll=55.8049,37.3929&z=10&t=s">
+                                    <h2 class="contacts__map">ГЛАВНЫЙ<br> ОФИС</h2>
+                                    <p>
+                                        Москва,Кулакова 20, стр 1А
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="contacts__text">
+                                <a href="tel:88007754161">
+                                    <h2 class="contacts__phone">Звонки<br> по России</h2>
+                                    <p>8 800 775-41-61 | <span>Бесплатно</span></p>
+                                 </a>
+                            </div>
+                            <div class="contacts__text">
+                                <a href="tel:84957775151">
+                                    <h2 class="contacts__phone">Звонки<br> из Москвы</h2>
+                                    <p>8 495 777-51-51</p>
+                                </a>
+                            </div>
+                            <a class="write btn" href="mailto:b2b@centrsvet.ru">Напишите нам </a>
+                    <h2 class="faq-title">Раздел - FAQ</h2>
+                    <p class="faq__text">
+                        Приложение Centrsvet позволяет просматривать и сохранять
+                        на устройство фирменные электронные каталоги и инструкции продукции нашей компании.
+                        Ниже описаны подсказки, рекомендации и часто задаваемые вопросы при использовании приложения.
+                    </p>
+                    <div class="questions">
+                        <div class="question">
+                            <h4 class="question__title">Как открыть инструкцию/каталог в приложении?<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                Вы можете открыть любой каталог или инструкцию в приложении, нажав на ее название или иконку, после этого вы окажетесь в режиме просмотра документа.</p>
+                        </div>
+
+                        <div class="question">
+                            <h4 class="question__title">Как сохранить инструкцию/каталог к себе на устройство?<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                Вы можете сохранить файлы к себе на устройство, после того как откроете его
+                                в режиме просмотра и нажмете на иконку "Поделиться". В сплывающем окне выбрать "Сохранить в файлы"</p>
+                        </div>
+
+                        <div class="question">
+                            <h4 class="question__title">Как отправить файл из приложения по почте?<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                Вы можете отправить файлы по почте, после того как откроете его
+                                в режиме просмотра и нажмете на иконку "Почта". В сплывающем окне заполнить произвести стандартную процедуру отправки письма с устройства.</p>
+                        </div>
+
+                        <div class="question">
+                            <h4 class="question__title">Как поделиться  инструкцией/каталогом в соц. сетях?<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                Вы можете поделиться файлами в соц сетях, после того как откроете его
+                                в режиме просмотра и нажмете на иконку "Поделиться". В сплывающем окне выбрать подходящую соц. сеть.</p>
+                        </div>
+
+                        <div class="question">
+                            <h4 class="question__title">Как использовать поиск в разделе инструкций?<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                Для использования фильтров и поиска - нажмите на "Фильтры" в правом верхнм углу экрана с инструкциями,
+                                в появившемся окне Вы можете найти инструкцию по названию Продукта,
+                                для этого введите название(или часть названия) интересующего
+                                Вас продукта и нажмите кнопку поиск.
+                                Вы так же можете применять фильтры по категориям продуктов для вывода частичной информации.
+                            </p>
+                        </div>
+
+                        <div class="question">
+                            <h4 class="question__title">Иконка загрузки долго висит над каталогом и ничего не происходит<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                При возникновении подобной ситуации, проверьте соеденение с интернетом,
+                                при плохом соеденении время загрузки файлов приложения значительно увеличивается.
+                                После первой загрузки каталога, он сохранится на устройсвте и в последующем будет открываться сразу.
+                            </p>
+                        </div>
+
+                        <div class="question">
+                            <h4 class="question__title">При запуске приложения появляется надпись "Запрос не успел выполниться..."<span class="plus"></span></h4>
+                            <p class="question__answer">
+                                При возникновении подобной ситуации, проверьте соеденение с интернетом,
+                                при плохом соеденении или отсутсвии интернета вы не сможете связаться с нашими серверами.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+            <div class="filters">
+                <a class="back back--filters"><span class="arrow-back"></span>Назад</a>
+                <p class="filters__title">Фильтры</p>
+                <div class="filters__controls">
+                    <div class="filter__search">
+                        <input class="search__field" type="text" placeholder="Поиск по названию">
+                        <a class="search__btn" title="Поиск">Поиск</a>
+                    </div>
+                    <div class="filter__options">
+                        <a class="filter-btn check-all__btn" title="Отметить все">Выбрать все</a>
+                        <a class="filter-btn reset__btn" title="Сброс">Сбросить</a>
+                    </div>
+                
+                    <div class="filter__checkbox">
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <section class="bot-menu">
+                <a class="nav-btn  back-home active">Home</a>
+                
+                <!-- <a class="nav-btn show-contacts">
+                    Contacts
+                </a> -->
+
+                <a class="nav-btn catalogs-link">
+                    Contacts
+                </a>
+                
+                <a class="nav-btn instructions-link">Home</a>
+
+                <a class="nav-btn show-info">
+                   Info
+                </a>
+            </section>
+        </main>
+        <div class="topApp-error">
+            <p>Нет соединения с интернетом</p>
+        </div>
+
+        <template class="card-template">
+            <article class="content__item">
+                <a class="content__item__link" target="_blank">
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption class="content__name">
+                            <p class="content__author visually-hidden">Каталог</p>
+                            <h4 class="content__title"></h4>
+                            <span class="is_new">NEW</span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+        </template>
+        
+        <template class="instr-template">
+            <div class="group">
+                <h3 class="group__title"></h3>
+                <div class="instructions__item">
+                    <h4 class="instructions__title">
+                        
+                    </h4>
+                    <span class="instructions__additional"></span>
+                    
+                </div>
+            </div>
+        </template>
+        
+        <template class="filter-template">
+            <div class="filter__group">
+                <input class="visually-hidden checkbox-instr" type="checkbox" id="" checked="true"></input>
+                <label for=""></label>
+            </div>
+        </template>
+
+        <template class="loader-template">
+            <div class="loader pdf">
+                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </template>
+
+        <template class="top-item-template">
+            <div class="top-menu__item">
+                <img src="" alt="">
+                <h4 class="small-title"></h4>
+            </div>
+        </template>
+
+        <template class="galery-template">
+            <article class="galery__item">
+                <img class="b-lazy"  src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== alt="">
+            </article>
+        </template>
+
+        <template class="popup-galery-template">
+            <div class="popup-galery">
+                <div class="galery-container peppermint peppermint-inactive" id="peppermint">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                </div>
+               
+                <div class="popup-galery__text">
+                    <h4 class="popup-galery__title"></h4>
+                    <small class="popup-galery__category"></small>
+                    <p class="popup-galery__description"></p>
+                    <a class="popup-galery__link btn">Смотреть на сайте</a>
+                    
+                </div>
+                <div class="popup-close"></div>
+            </div>
+        </template>
+
+        <template class="popup-presentation-template">
+            <div class="popup-presentation">
+                <div class="popup-presentation__wrapper">
+
+                </div>
+                <a class="popup-galery__link btn">Смотреть на сайте</a>
+                <div class="popup-close"></div>
+            </div>
+        </template>
+
+        <template class="presentation-slide-template">
+            <article class="presentation-slide">
+                <figure>
+                    <picture class="presentation-slide__img">
+                        <source media="(min-width: 1024px)" srcset="">
+                        <img src="" alt="">
+                    </picture>
+                    <figcaption>
+                        <h4 class="presentation-slide__title"></h4>
+                        <p class="presentation-slide__text">
+
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+        </template>
+
+        <template class="top-menu__item-template">
+            <div class="top-menu__item">
+                <img src="" alt="">
+                <h4 class="small-title"></h4>
+            </div>
+        </template>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/backend.js"></script>
+        <script type="text/javascript" src="js/pappermint.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/instructions.js"></script>
+        <script type="text/javascript" src="js/pdf.js"></script>
+        <script type="text/javascript" src="js/blazy.min.js"></script>
+        <script type="text/javascript" src="js/galery.js"></script>
+        <script type="text/javascript" src="js/utils.js"></script>
+    </body>
+</html>
